@@ -1,0 +1,29 @@
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+
+# Chroma / local vector DB
+chroma_db/
+.chroma/
+
+# IDE & OS
+.idea/
+.vscode/
+.DS_Store
+*.swp
